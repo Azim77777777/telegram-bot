@@ -5,7 +5,7 @@ import random
 from aiogram import Bot, Dispatcher, executor, types
 
 # 🔑 Вставь сюда токен от BotFather
-API_TOKEN = "YOUR_TOKEN_HERE"
+API_TOKEN = "8107743933:AAGRIImvxDpPXlXFwGtI_NMcG5u7kLT2VZ4"
 
 # 🔧 Логирование
 logging.basicConfig(level=logging.INFO)
