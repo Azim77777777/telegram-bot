@@ -180,7 +180,9 @@ async def top_players(message: types.Message):
     cur.execute("SELECT user_id, balance FROM users WHERE hidden=0 ORDER BY balance DESC LIMIT 10")
     top = cur.fetchall()
     text = "🏆 ТОП игроков:\n\n"
-    for i
+    for idx, (user_id, balance) in enumerate(top, start=1):
+        text += f"{idx}. Пользователь {user_id} — {balance:,}₽\n"
+    await message.answer(text)
     
     # 📌 Рулетка
 @dp.message_handler(commands=["рул"])
