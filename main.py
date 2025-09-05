@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 import random, json, time, os
 
-TOKEN = "ВАШ_ТОКЕН_БОТА"
+TOKEN = "8479187561:AAFDt_mqBGySDVZwJO0ZoaaqNq5-yG27Mvk"
 ADMIN_ID = 123456789  # замените на свой Telegram ID
 
 bot = Bot(token=TOKEN)
